@@ -1,0 +1,179 @@
+<html >
+  <head>
+    
+    <link rel="stylesheet" href="objects/css/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Технологии 3D печати</title>
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-light" style="background-color: #D2691E;">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="position: relative; left: 15%">
+      <p class="fs-3">Технологии 3D печати</p>
+      <br>
+
+    
+  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Технология 3D сканирования</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Дополнительно
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Помощь</a></li>
+            <li><a class="dropdown-item" href="#">Сведения о сайте</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Здесь я должен был прикрепить способ связаться со мной</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ 
+
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3" style="position: relative; left: 3%">
+  <a class="navbar-brand" href="#"> 
+  <p class="text-center">Содержание</p>
+</a>
+  <nav class="nav nav-pills flex-column" style="position: relative; left: 3%">
+    <a class="nav-link" href="#item-0.1" style="position: relative; left: 3%">0.1 Введение</a>
+  <nav class="nav nav-pills flex-column" style="position: relative; left: 3%">
+    <a class="nav-link" href="#item-1" style="position: relative; left: 3%">1. Экструзия материала</a>
+    <nav class="nav nav-pills flex-column" style="position: relative; left: 3%">
+      <a class="nav-link ms-3 my-1" href="#item-1-1" style="position: relative; left: 3%">1.1. Моделирование методом наплавления (Fused Deposition Modeling, FDM)</a>
+      <a class="nav-link ms-3 my-1" href="#item-1-2" style="position: relative; left: 3%">1.2. Моделирование методом напыления с последующим фрезерованием слоя (Drop On Demand Jet, DODJet)</a>
+    </nav>
+    <a class="nav-link" href="#item-2" style="position: relative; left: 3%">2. Фотополимеризация</a>
+    <nav class="nav nav-pills flex-column" style="position: relative; left: 3%">
+      <a class="nav-link ms-3 my-1" href="#item-2-1" style="position: relative; left: 3%">2.1. Лазерная стереолитография (Laser Stereolithography, SLA)</a>
+      <a class="nav-link ms-3 my-1" href="#item-2-2" style="position: relative; left: 3%">2.2. Цифровая обработка светом (Digital Light Processing, DLP)</a>
+    </nav>
+    <a class="nav-link" href="#item-3" style="position: relative; left: 3%">3. Печать методом спекания и плавления материала</a>
+    <nav class="nav nav-pills flex-column" style="position: relative; left: 3%">
+      <a class="nav-link ms-3 my-1" href="#item-3-1" style="position: relative; left: 3%">3.1. Селективное лазерное спекание (Selective Laser Sintering, SLS)</a>
+      <a class="nav-link ms-3 my-1" href="#item-3-2" style="position: relative; left: 3%">3.2. Прямое металлическое лазерное плавление (Direct Metal Selective Laser Melting, SLM)</a>
+    </nav>
+  </nav>
+</nav>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+  <h4 id="item-0.1" style="position: relative; left: 3%" >0.1 Введение</h4>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Активное внедрение 3Д-технологий содействовало созданию прогрессивных 3D-принтеров с богатым набором опций. Высокоэффективные технологии 3D-печати позволили спроектировать оригинальные образцы рекламной продукции для маркетинговых компаний, объектов общепита,  промышленности и ландшафтного дизайна.
+  3Д-печать представляет собой процедуру проектирования трехмерных композиций заданной геометрической формы. Процесс получения оригинальной модели базируется на основе поэтапного построения объекта четкими наносимыми слоями, отчетливо демонстрирующими грани изделия.
+  Инновационные способы 3D-печати очень востребованы в строительной сфере, архитектуре, образовании, медицине, биоинженерии и многих других областях. В отличие от традиционных способов получения деталей — фрезеровки, точения, они позволяют добиться высокой точности, наибольшей экономии материалов и времени.</p>
+  <br>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="objects/images/1000.jpeg" style="position: relative; left: 25%" height="400" width="600" class="d-block ">
+    </div>
+    <div class="carousel-item">
+      <img src="objects/images/1001.jpeg" style="position: relative; left: 25%" height="400" width="600" class="d-block ">
+    </div>
+    <div class="carousel-item">
+      <img src="objects/images/1002.jpeg" style="position: relative; left: 25%" height="400" width="600" class="d-block ">
+    </div>
+  </div>
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+    <span class="visually-hidden "></span>
+  </button>
+  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+    <span class="visually-hidden "></span>
+  </button>
+</div>
+
+  <h4 id="item-1" style="position: relative; left: 3%" >1. Экструзия материала</h4>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Экструзия материала — технология получения изделий путём продавливания вязкого расплава материала или густой пасты через формующее отверстие. Обычно используется при формовке полимеров (в том числе резиновых смесей, пластмасс, крахмалсодержащих и белоксодержащих смесей), ферритовых изделий (сердечники), а также в пищевой промышленности (макароны, лапша, кукурузные палочки и т. п.), путём продавливания формуемого вещества через формующее отверстие головной части экструдера. Двумя основными преимуществами этого процесса перед другими производственными процессами являются его способность создавать очень сложные поперечные сечения и обрабатывать хрупкие материалы, поскольку материал сталкивается только со сжимающими и сдвиговыми давлениями. Он также формирует детали с отличным качеством поверхности. Процесс экструзии в металлах также может увеличить прочность материала. Продукты экструзии обычно называют «экструдатами».</p>
+  <hr>
+  <h5 id="item-1-1" style="position: relative; left: 3%" >1.1. Моделирование методом наплавления (Fused Deposition Modeling, FDM)</h5>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%" >Прототипирование методом наплавления (FDM). Чаще всего используется для быстрого прототипирования различных моделей, например, серийного производства украшений, сувениров и игрушек;<br>
+  Наиболее распространенная технология 3D печати, особенно среди персональных и настольных 3D принтеров.
+Технология работает по принципу наплавления материала слоями. Пластиковые или металлические нити разматываются из рулона (картриджа) и поступают в печатающую головку (экструдер). Экструдер разогревает нити до жидкого состояния и выдавливает материал через сопло, перемещаясь в горизонтальном и вертикальном направлениях, слой за слоем формируя объект.</p>
+
+<img src="objects/images/1003.jpeg" height="400" width="750" style="position: relative; left: 20%">
+<hr>
+  <h5 id="item-1-2" style="position: relative; left: 3%" >1.2. Моделирование методом напыления с последующим фрезерованием слоя (Drop On Demand Jet, DODJet)</h5>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">
+    В этой технологии 3D-печати также используется два вида материалов — модельный и материал поддержки.
+Печатающая головка одновременно распыляет оба типа «расходников». Затем специальная фрезеровочная головка производит охлаждение распыленного слоя и его механическую обработку. Технология DODJet позволяет строить высокоточные модели с абсолютно гладкой поверхность. Так как распыление рабочего слоя происходит за счет механически движущийся головки, то скорость изготовления прототипа во многом зависит от сложности печатной модели.</p>
+
+<img src="objects/images/1004.jpeg" height="400" width="600" style="position: relative; left: 25%">
+<hr>
+  <h4 id="item-2" style="position: relative; left: 3%" >2. Фотополимеризация</h4>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Фотополимеризация — образование полимеров под действием света, главным образом УФ излучения. Осуществляется в газовой, жидкой и твердой фазах. К фотополимеризации относят все фотохимические процессы получения полимеров независимо от их механизма – цепного (полимеризационного) или ступенчатого (поликонденсационного).<br>
+   В первом случае свет служит только для инициирования реакции, которая далее развивается как обычная полимеризация. Во втором случае каждый акт роста цепи требует поглощения кванта света.<br>
+При цепной фотополимеризации излучение может поглощаться непосредственно молекулами мономера или инициатора либо молекулами других веществ (так называемых сенсибилизаторов), которые затем передают молекулам мономера или инициатора энергию излучения.<br>
+При сенсибилизации фотополимеризации в газовой фазе используют пары Hg, кетоны и другие, в жидкой фазе – различные красители, многоядерные ароматические соединения, карбонилы, соли и ацетилацетонаты переходных металлов и других.
+</p>
+<hr>
+<h5 id="item-2-1" style="position: relative; left: 3%" >2.1. Лазерная стереолитография (Laser Stereolithography, SLA)</h5>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Технологию изобрел Чарльз Халл. Получив патент на нее, Халл основал компанию 3D Systems, которая и сегодня остается ведущей компанией-производителем SLA-машин.
+Технология предполагает использование специального фотополимера — светочувствительной смолы в качестве модельного материала. Основой в данном процессе является ультрафиолетовый лазер, который последовательно переводит поперечные сечения модели на поверхность емкости со светочувствительной смолой. Фотополимер затвердевает только в том месте, где прошел лазерный луч. Затем новый слой смолы наносится на затвердевший слой, и новый контур намечается лазером. Процесс повторяется до завершения построения модели. Стереолитография — наиболее популярная технология быстрого прототипирования для получения высокоточных моделей. Она охватывает практически все отрасли материального производства от медицины до тяжелого машиностроения. SLA-технология позволяет быстро и точно построить модель изделия практически любых размеров. Качество поверхностей зависит от шага построения. Современные машины обеспечивают шаг построения 0,025 — 0,15 мм.<br>
+SLA-технология дает наилучший результат при изготовлении мастер-моделей для последующего изготовления силиконовых форм и литья в них полимерных смол, а также используется для выращивания ювелирных мастер-моделей.</p>
+
+<img src="objects/images/1005.jpeg" height="400" width="600" style="position: relative; left: 25%">
+<hr>
+  <h5 id="item-2-2" style="position: relative; left: 3%" >2.2. Цифровая обработка светом (Digital Light Processing, DLP)</h5>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Аналог SLA технологии. В отличии от традиционной технологии стереолитография, использующей сканирующий ультрафиолетовый лазер для того, чтобы сделать жидкий материал твердым, DLP принтер работает по схожему принципу, однако использует DLP-прожектор, который воздействует на каждый слой. Как только первый слой застывает на платформе, платформа опускается немного глубже в резервуар со смолой, а прожектор засвечивает новое изображение, чтобы затвердел следующий слой.</p>
+
+<img src="objects/images/1006.jpeg" height="300" width="600" style="position: relative; left: 25%">
+<hr>
+  <h4 id="item-3" style="position: relative; left: 3%" >3. Печать методом спекания и плавления материала</h4>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Спекание в технике — процесс получения плотного и прочного камневидного тела из слабосвязанного пористого зернистого материала. По своей сути, спекание представляет собой заполнение веществом пор, их "удаление" при высокой температуре за счет самопроизвольного уплотнения дисперсного пористого тела.
+Спеканию подвергаются материалы, например, при агломерации, коксовании, при подготовке слабоспекающихся углей к коксованию, в производстве керамики, огнеупорных изделий;<br>
+ Спекание — одна из технологических стадий порошковой металлургии.
+При нагреве многокомпонентных материалов возможно плавление какой-либо составляющей (но не основы), тогда появление жидкой фазы окажет существенное влияние на закономерности спекания.<br>
+Плавление — это процесс перехода тела из кристаллического твёрдого состояния в жидкое, то есть переход вещества из одного агрегатного состояния в другое. Плавление происходит с поглощением теплоты плавления и является фазовым переходом первого рода, которое сопровождается скачкообразным изменением теплоёмкости в конкретной для каждого вещества температурной точке превращения — температура плавления.
+</p>
+<hr>
+  <h5 id="item-3-1" style="position: relative; left: 3%" >3.1. Селективное лазерное спекание (Selective Laser Sintering, SLS)</h5>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">По данной технологии модели создаются из порошковых материалов за счет эффекта спекания при помощи энергии лазерного луча. В отличие от SLA-процесса, в данном случае лазерный луч является не источником света, а источником тепла. Попадая на тонкий слой порошка, лазерный луч спекает его частицы и формирует твердую массу, в соответствие с геометрией детали. В качестве материалов используются полиамид, полистирол, песок и порошки некоторых металлов. Существенным преимуществом SLS-процесса является отсутствие так называемых поддержек при построении модели. В процессах SLA и MJM при построении нависающих элементов детали используются специальные поддержки, предохраняющие свежепостроенные тонкие слои модели от обрушения. В SLS-процессе в таких поддержках нет необходимости, поскольку построение ведется в однородной массе порошка. После построения модель извлекается из массива порошка и очищается.</p>
+
+<img src="objects/images/1007.jpeg"  height="400" width="600" style="position: relative; left: 25%">
+<hr>
+  <h5 id="item-3-2" style="position: relative; left: 3%" >3.2. Прямое металлическое лазерное плавление (Direct Metal Selective Laser Melting, SLM)</h5>
+  <p class="text-break fs-5" style="position: relative; left: 10%; width: 80%">Разновидность технологии SLS. Материалом выступают металлы и сплавы в виде порошка. Для печати доступны следующие металлы и сплавы: сталь, нержавеющая сталь, инструментальная сталь, алюминий, сплав кобальт-хром, титан.
+Тонкие слои качественного порошка металла равномерно распределяются с использованием специального покрывающего механизма, платформа на которой расположен порошок при этом может опускаться по вертикали. Весь процесс происходит внутри камеры, которая поддерживает жесткий контроль атмосферных инертных газов таких, как аргон, азот, кислород на уровне ниже 500 частей на миллион. Затем каждый слой формируется путем избирательного воздействия лазеров на поверхность порошка с помощью двух высокочастотных сканеров X и Y осей. Процесс повторяется слой за слоем, пока деталь не будет завершена.</p>
+
+<img src="objects/images/1008.jpeg" height="400" width="600" style="position: relative; left: 25%">
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+  </body>
